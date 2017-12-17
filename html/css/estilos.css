@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+* {
+  /*CSS Reset*/
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+
+  font-family: Verdana; }
+
+#nombreEmpresa {
+  margin-left: 40px;
+  margin-right: 90px;
+   }
+
+header {
+  margin-top: 30px;
+  text-align: center;
+  background: url("cabecera.jpg");
+  height: 161px; }
+
+h1 {
+  font-family: Spectral SC; 
+  font-size: 40px;
+
+}
+
+#menu {
+  display: inline-block;
+  margin-top: 60px;
+  /*background-color:#e2225b;*/
+   }
+
+
+.container_12 {
+  background-color: #FA9849; }
+
+ul {
+  text-align: center;
+  list-style-type: none; 
+}
+
+
+li {
+  margin: 0;
+  display: inline-block;
+  border: solid black 1px;
+  background-color: #E5AA7A;
+
+  margin: -5px; 
+}
+
+  li a {
+    color: black;
+    text-align: center;
+    font-size:16px;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+     }
+  li:hover {
+    background-color: pink; }
+  li:active {
+    font-size: 150%; }
+
+#viaje {
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border: solid 1px;
+  background-color: #eaeced;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 0px solid #000000; }
+
+video{
+  height: 100%;
+  width: 100%;
+
+}
+#izquierda {
+  margin-top: 50px;
+  background-color: white; }
+
+
+.dias {
+  margin-left: 3px; }
+
+#derecha {
+  margin-top: 50px;
+  border: 0px solid #000000; }
+
+#boton {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+#texto1 {
+  background-color: #eaeced;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 40px;
+  border: solid 1px;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 0px solid #000000;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #e2225b;
+  font-weight: bold; }
+
+
+
+  #fotos {
+  margin-top: 50px;
+  margin-left: 25px;
+  padding-left:10px;
+  }
+
+   img{
+  	width:100%;
+  	height:100%;
+    margin-top: 40px;
+  }
+
+
+#derechos {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: bold;
+  color: #DAF7A6;}
+
+#europa {
+  width: 300px;
+  height: 100px;
+  padding-bottom: 50px;
+  float: left; }
+
+#redes {
+  margin-top: 20px;
+  margin-left: 150px;
+  font-weight: bold;
+  color: #DAF7A6 ;}
+
+#iconosRedes {
+  float: right;
+  margin-right: 100px;
+  margin-top: 20px; }
+
+  .iconos{
+  	width:50px;
+	height:50px;
+
+  }
+
+  .copyright{
+  	width:30px;
+  	height:30px;
+  }
+
+hr {
+  margin-top: 200px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-color: #DAF7A6;}
+iframe{
+	width:400px;
+	height:300px;
+}
+footer {
+  margin-top: 30px;
+  background-color: #CB6411;
+  color: white; }
+
+.error {
+  font-family: Verdana;
+  font-weight: bold; }
+
+.imgError {
+  margin-left: 200px;
+  border: solid black 1px; }
+
+  button{
+  	color:black;
+  	background-color:#e2225b;
+
+  }
+
+  .oferta{
+  
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+  .oferta img{
+    width: 100%;
+  }
+
+  .info{
+    text-align: center;
+    margin-left: 55px;
+    margin-top: 15px;
+    width: 100%
+  }
+  .boton{
+ 
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: black;
+    background-color: #e2225b;
+    border-radius: 15px;
+    border:solid 1px ;
+    margin-left: 0px;
+  }
+  .boton:hover{
+    opacity: 0.6;
+  }
+
+  .mas:hover{
+    opacity: 0.6
+  }
+  
+
+
+
+/*# sourceMappingURL=PriebaSass.css.map */
